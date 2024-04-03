@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    background-color: rgb(104, 104, 148);
+    font-size: 7vmin;
+    padding: 1vmin;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vmin;
+    gap: 7vmin;
+}
+.choice{
+    height: 150px;
+    width: 150px;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.1,1.1);
+    transition:0.3s;
+}
+img{
+    height: 23vmin;
+    opacity: 0.96;
+    border-radius: 50%;
+}
+.score_board{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10vmin;
+gap: 10vmin;
+}
+#user_score, #comp_score{
+    font-size: 5vmin;
+}
+#user, #comp{
+    font-size: 10vmin;
+}
+#msg{
+    margin-top: 10vmin;
+    background-color: rgb(104, 104, 148);
+    color: white;
+    padding: 1.5vmin;
+    border-radius: 2vmin;
+    display:inline-block;
+}
