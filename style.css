@@ -6,7 +6,7 @@
 
 h1{
     color: white;
-    background-color: rgb(104, 104, 148);
+    background-color:rgb(135 135 231);
     font-size: 7vmin;
     padding: 1vmin;
 }
@@ -48,7 +48,7 @@ gap: 10vmin;
 }
 #msg{
     margin-top: 10vmin;
-    background-color: rgb(104, 104, 148);
+    background-color: rgb(135 135 231);
     color: white;
     padding: 1.5vmin;
     border-radius: 2vmin;
