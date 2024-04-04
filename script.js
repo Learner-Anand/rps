@@ -17,7 +17,7 @@ const Winner = (userWin,user_choice,comp_choice) =>{
     if (userWin===true){
         user_score++;
         user_count.innerText=user_score;
-        msg.innerText=`You Win! Your ${user_choice}beats ${comp_choice}`;
+        msg.innerText=`You Win! Your ${user_choice} beats ${comp_choice}`;
         msg.style.backgroundColor="#0ca60c";
     }
     else{
